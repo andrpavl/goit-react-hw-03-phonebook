@@ -1,0 +1,27 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.label {
+  margin-bottom: 16px;
+}
+
+.btnAdd {
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+  background-color: bisque;
+  border-radius: 5px;
+  border: none;
+}
+.btnAdd:hover {
+  background-color: blue;
+  color: antiquewhite;
+}
+.input {
+  margin-left: 10px;
+  padding: 8px;
+  border-radius: 6px;
+}
